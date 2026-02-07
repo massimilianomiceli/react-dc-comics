@@ -12,3 +12,13 @@
   background-repeat: no-repeat;
   background-position: center top;
 }
+
+.btnLoad{
+  background-color: rgb(56,	128,	241);
+  color: white;
+  border: 0;
+  width: 10rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 0.5rem 0rem;
+}
