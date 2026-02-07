@@ -5,8 +5,8 @@ export default function Header(){
     return(
         <>
         <header>
-                <Navbar />
-                <div id="jumbotron"></div>
+            <Navbar />
+            <div id="jumbotron"></div>
         </header>
         </>
     )

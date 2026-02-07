@@ -1,0 +1,11 @@
+.articleImg{
+    aspect-ratio: 1;
+    width: 100%;
+    object-fit: cover;     /* 🔥 LA MAGIA */
+    object-position: top;
+}
+
+.articleCaption{
+    font-size: 0.65rem;
+    color: white;
+}

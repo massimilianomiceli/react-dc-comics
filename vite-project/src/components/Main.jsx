@@ -1,11 +1,15 @@
+import ArticleSection from "./ArticleSection"
+
 export default function Main(){
     return(
         <>
         <main>
-            <div className="container-fluid">
-                <section className="row bg-black">
-                    <h1>Content goes here</h1>
-                </section>
+            <div className="container-fluid bg-black">
+                <div className="container">
+                    <ArticleSection />
+                </div>
+                    
+
             </div>
         </main>
         </>
