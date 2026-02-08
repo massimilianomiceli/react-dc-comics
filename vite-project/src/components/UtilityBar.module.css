@@ -1,0 +1,5 @@
+.navImg{
+  height: 3.5rem;
+  aspect-ratio: 1;
+  object-fit: contain;
+}

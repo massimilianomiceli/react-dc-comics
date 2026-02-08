@@ -13,6 +13,11 @@
   background-position: center top;
 }
 
+.lightText{
+  font-size: 0.75rem;
+  color: white;
+}
+
 .btnLoad{
   background-color: rgb(56,	128,	241);
   color: white;
@@ -21,4 +26,12 @@
   font-size: 0.75rem;
   font-weight: bold;
   padding: 0.5rem 0rem;
+}
+
+.containerBgDark{
+  background-color: rgb(28,	28,	28);
+}
+
+.containerBgBlue{
+  background-color: rgb(56,	128,	241);
 }
