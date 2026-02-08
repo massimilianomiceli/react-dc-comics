@@ -28,10 +28,31 @@
   padding: 0.5rem 0rem;
 }
 
+.containerArticle{
+  position: relative;
+}
+
+.containerArticleLabel{
+  position: absolute;
+  background-color: rgb(56,	128,	241);
+  font-weight: bolder;
+  color: white;
+  left: 0;
+  top: 0;
+  transform: translateY(-50%);
+}
+
 .containerBgDark{
   background-color: rgb(28,	28,	28);
 }
 
 .containerBgBlue{
   background-color: rgb(56,	128,	241);
+}
+
+.containerBgFooter{
+  background-image: url("/img/footer-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
 }

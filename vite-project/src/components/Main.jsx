@@ -7,7 +7,8 @@ export default function Main(){
         <>
         <main>
             <div className="container-fluid containerBgDark">
-                <div className="container">
+                <div className="container containerArticle">
+                    <label className="containerArticleLabel py-1 px-3">CURRENT SERIES</label>
                     <ArticleSection />
                     <div className="row justify-content-center">
                         <button class="btnLoad mb-3" type="button">LOAD MORE</button>

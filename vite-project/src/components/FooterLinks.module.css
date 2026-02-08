@@ -1,0 +1,10 @@
+.footerTitle{
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+}
+
+.footerLinks{
+    font-size: 0.75rem;
+    color: rgb(120, 120, 120);
+}
