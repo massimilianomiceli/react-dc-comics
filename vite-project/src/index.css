@@ -55,4 +55,12 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
+  overflow: hidden;  /* mi consente di nascondere il logo che sborda */
+}
+
+.footerLogo{
+  position: absolute;
+  height: 150%;
+  right: 0;
+  transform: translateY(-20%);
 }

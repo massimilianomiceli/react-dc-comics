@@ -66,7 +66,7 @@ export default function FooterLinks(){
                             </ul>    
                     </div>
                 ))}
-            </nav>    
+            </nav>
         </>
     )
 }                            
