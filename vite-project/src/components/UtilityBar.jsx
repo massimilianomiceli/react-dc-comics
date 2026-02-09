@@ -6,7 +6,7 @@ export default function UtilityBar(){
         {text: "digital comics", url:"#", img: "/img/buy-comics-digital-comics.png"},
         {text: "dc merchandise", url:"#", img: "img/buy-comics-merchandise.png"},
         {text: "subscription", url:"#", img: "/img/buy-comics-subscriptions.png"},
-        {text: "tcomic shop locator", url:"#", img:"/img/buy-comics-shop-locator.png"},
+        {text: "comic shop locator", url:"#", img:"/img/buy-comics-shop-locator.png"},
         {text: "dc power visa", url:"#", img: "/img/buy-dc-power-visa.svg"},
 
     ]

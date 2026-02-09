@@ -55,7 +55,7 @@ export default function FooterLinks(){
         <>
             <nav className="d-flex gap-1 py-5">
                 {footerLinks.map((footerLink, index)=>(
-                    <div key={index} className="col-2">
+                    <div key={index} className="col-1">
                         <h4 className={styles.footerTitle}>{footerLink.title.toUpperCase()}</h4>
                             <ul className="d-flex flex-column list-unstyled my-1">
                                 {footerLink.links.map((link, linkIndex)=>(
