@@ -2,6 +2,7 @@ import styles from "./Navbar.module.css"
 import '../index.css'
 
 export default function Navbar(){
+    
     const links = [
         {text: "characters", url:"#", active: false},
         {text: "comics", url:"#", active: true},
@@ -14,6 +15,7 @@ export default function Navbar(){
         {text: "news", url:"#", active: false},
         {text: "shop", url:"#", active: false},
     ]
+    
     return(
         <>
         <nav className={`${styles.navbar} d-flex justify-content-around align-items-center`}>

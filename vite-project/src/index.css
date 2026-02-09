@@ -1,3 +1,9 @@
+html {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 #logo{
   height: 75%;
   width: auto;
