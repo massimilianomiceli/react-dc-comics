@@ -18,7 +18,7 @@ export default function Social(){
                 {socialIcons.map((socialIcon, index)=>(
                     <li key={index} className="d-flex">
                         <a href={socialIcon.url} className="lightText d-flex align-items-center text-decoration-none">
-                            <img src={socialIcon.img} className="" alt="" srcset="" />
+                            <img src={socialIcon.img} className="" alt=""/>
                         </a>
                     </li>                
                 ))}

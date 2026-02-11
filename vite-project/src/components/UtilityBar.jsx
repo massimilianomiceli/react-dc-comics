@@ -18,7 +18,7 @@ export default function UtilityBar(){
             <ul className="d-flex justify-content-around list-unstyled gap-4 my-0">
                 {links.map((link, index)=>(
                     <li key={index} className="d-flex">
-                        <img src={link.img} className={`${styles.navImg} me-3`} alt="" srcset="" />
+                        <img src={link.img} className={`${styles.navImg} me-3`} alt=""/>
                         <a href={link.url} className="lightText d-flex align-items-center text-decoration-none">
                             {link.text.toUpperCase()}
                         </a>

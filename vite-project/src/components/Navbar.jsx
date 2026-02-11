@@ -19,7 +19,7 @@ export default function Navbar(){
     return(
         <>
         <nav className={`${styles.navbar} d-flex justify-content-around align-items-center`}>
-            <img src="/img/dc-logo.png" id="logo" alt="DC logo" srcset="" />
+            <img src="/img/dc-logo.png" id="logo" alt="DC logo"/>
             <ul className="d-flex align-items-stretch h-100 my-0 list-unstyled gap-4">
                 {links.map((link, index)=>(
                     <li key={index} className="d-flex align-items-stretch">
