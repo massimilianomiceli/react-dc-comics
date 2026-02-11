@@ -1,12 +1,14 @@
 import ArticleSection from "./ArticleSection"
 import UtilityBar from "./UtilityBar"
-import comics from "../data/comics"
 import '../index.css'
 
 
 
 
-export default function Main(){
+export default function Main(props){
+    
+    const{comics}=props;
+
     return(
         <>
         <main>
